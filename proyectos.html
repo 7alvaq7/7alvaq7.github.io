@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/proyectos.css">
     <title>Alvaro Vaquero Gimenez</title>
+    <script src="js/header.js"></script> 
 </head>
 <body>
-    <div class="header">
-        <h1>AVG</h1>
-        <div class="menu">
-            <a href="/index.html" class="menu_inicio" style="margin-right: 20px;">INICIO</a>
-            <a href="/sobremi.html" class="menu_inicio" style="margin-right: 20px;">SOBRE MI</a>
-            <a href="" class="menu_proyectos">PROYECTOS</a>
-        </div>
-        <a href="resources/AlvaroVaqueroCurriculum.pdf" download="AlvaroVaqueroCurriculum.pdf" class="download_curriculum">
-            <div class="container_cv">
-                <i class="fas fa-chevron-down" style="margin-right: 10px;"></i>
-                <p class="cv">Descargar CV</p>
-            </div>
-        </a>
-    </div>
+    <header>
+		<nav>
+			<section class="contenedor nav">
+				<h1 class="avg">AVG</h1>
+                <div class="menu">
+                    <a href="/index.html" class="menu_inicio" style="margin-right: 20px;">Inicio</a>
+                    <a href="/sobremi.html" class="menu_inicio" style="margin-right: 20px;">Sobre Mí</a>
+                    <a href="" class="menu_proyectos">Proyectos</a>
+                </div>
+			</section>
+		</nav>
+	</header>
     <div class="main">
         <h1 class="title">PROYECTOS</h1>
         <div class="container">
@@ -30,8 +29,10 @@
                     <img src="resources/minesweeper.png">
                 </div>
                 <div class="project_info">
-                    <h2 class="project_title">Minesweeper</h2>
-                    <p class="project_description">Encuentra las minas ocultas sin que exploten. Clásico juego de buscaminas en el que cada casilla muestra un número con la cantidad de minas que se encuentran alrededor. Los números indican el número de minas que hay en las casillas adyacentes.</p>
+                    <div class="project_up">
+                        <h2 class="project_title">Minesweeper</h2>
+                        <p class="project_description">Encuentra las minas ocultas sin que exploten. Clásico juego de buscaminas en el que cada casilla muestra un número con la cantidad de minas que se encuentran alrededor. Los números indican el número de minas que hay en las casillas adyacentes.</p>
+                    </div>
                     <div class="project_bottom">
                         <div class="project_tecnology">
                             <img src="resources/python.jpg">
@@ -46,8 +47,10 @@
                     <img src="resources/flappybird.png">
                 </div>
                 <div class="project_info">
-                    <h2 class="project_title">FlappyBirds</h2>
-                    <p class="project_description">Flappy Bird es un icónico juego de desplazamiento lateral en el que tienes que hacer clic para esquivar los obstáculos.</p>
+                    <div class="project_up">
+                        <h2 class="project_title">FlappyBirds</h2>
+                        <p class="project_description">Flappy Bird es un icónico juego de desplazamiento lateral en el que tienes que hacer clic para esquivar los obstáculos.</p> 
+                    </div>
                     <div class="project_bottom">
                         <div class="project_tecnology">
                             <img src="resources/python.jpg">
@@ -62,8 +65,10 @@
                     <img src="resources/cuboland3d.png">
                 </div>
                 <div class="project_info">
-                    <h2 class="project_title">Cuboland 3D</h2>
-                    <p class="project_description">Cuboland es un juego de construcción en 3D, inspirado en el famoso juego "Minecraft". Mundo repleto de cubos de colores personalizados, para la construcción de ciudades, figuras, zona de parkour, texto en 3D y todo lo que nuestra mente pueda imaginar, no existen límites.</p>
+                    <div class="project_up">
+                        <h2 class="project_title">Cuboland 3D</h2>
+                        <p class="project_description">Cuboland es un juego de construcción en 3D, inspirado en el famoso juego "Minecraft". Mundo repleto de cubos de colores personalizados, para la construcción de ciudades, figuras, zona de parkour, texto en 3D y todo lo que nuestra mente pueda imaginar, no existen límites.</p>
+                    </div>
                     <div class="project_bottom">
                         <div class="project_tecnology">
                             <img src="resources/python.jpg">
@@ -78,8 +83,10 @@
                     <img src="resources/pixelart.png">
                 </div>
                 <div class="project_info">
-                    <h2 class="project_title">PixelArt</h2>
-                    <p class="project_description">El pixel art o arte de píxel​ es una forma de arte digital, creada a través de una computadora mediante el uso de programas de edición de gráficos rasterizados, donde las imágenes son editadas al nivel del píxel.</p>
+                    <div class="project_up">
+                        <h2 class="project_title">PixelArt</h2>
+                        <p class="project_description">El pixel art o arte de píxel​ es una forma de arte digital, creada a través de una computadora mediante el uso de programas de edición de gráficos rasterizados, donde las imágenes son editadas al nivel del píxel.</p>    
+                    </div>
                     <div class="project_bottom">
                         <div class="project_tecnology">
                             <img src="resources/python.jpg">
@@ -91,6 +98,33 @@
             </div>
         </div>
     </div>
+    <footer>
+        <a href="resources/AlvaroVaqueroCurriculum.pdf" download="AlvaroVaqueroCurriculum.pdf" class="download_curriculum">
+            <div class="container_cv">
+                <i class="fas fa-chevron-down cv_icon"></i>
+                <p class="cv">Descargar CV</p>
+            </div>
+        </a>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/alvaro-vaquero-gimenez/" class="social__item"><i class="fab fa-linkedin social__icon"></i></a>
+            <a href="https://twitter.com/AlvaroVaqGim" class="social__item"><i class="fab fa-twitter social__icon"></i></a>
+            <a href="https://github.com/alvarovaq" class="social__item"><i class="fab fa-github social__icon"></i></a>
+        </div>
+        <div class="contact">
+            <div class="mail">
+                <div class="contact__item">
+                    <i class="fas fa-envelope-open contact__icon"></i>
+                    <h4 class="contact__value">alvaro.vaquero.tel@gmail.com</h4>
+                </div>
+            </div>
+            <div class="phone">
+                <div class="contact__item">
+                    <i class="fas fa-phone contact__icon"></i>
+                    <h4 class="contact__value">+34 660 78 27 87</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://kit.fontawesome.com/4b82c5518b.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -6,26 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/sobremi.css">
     <title>Alvaro Vaquero Gimenez</title>
+    <script src="js/header.js"></script>  
 </head>
-<body>
-    <div class="header">
-        <h1>AVG</h1>
-        <div class="menu">
-            <a href="/index.html" class="menu_inicio" style="margin-right: 20px;">INICIO</a>
-            <a href="" class="menu_inicio" style="margin-right: 20px;">SOBRE MI</a>
-            <a href="/proyectos.html" class="menu_proyectos">PROYECTOS</a>
-        </div>
-        <a href="resources/AlvaroVaqueroCurriculum.pdf" download="AlvaroVaqueroCurriculum.pdf" class="download_curriculum">
-            <div class="container_cv">
-                <i class="fas fa-chevron-down" style="margin-right: 10px;"></i>
-                <p class="cv">Descargar CV</p>
-            </div>
-        </a>
-    </div>
+<body>              
+    <header>
+		<nav>
+			<section class="contenedor nav">
+				<h1 class="avg">AVG</h1>
+                <div class="menu">
+                    <a href="/index.html" class="menu_inicio" style="margin-right: 20px;">Inicio</a>
+                    <a href="" class="menu_inicio" style="margin-right: 20px;">Sobre Mí</a>
+                    <a href="/proyectos.html" class="menu_proyectos">Proyectos</a>
+                </div>
+			</section>
+		</nav>
+	</header>
     <div class="main">
         <h1 class="title">SOBRE MI</h1>
         <div class="container">
-            <div class="part">
+            <section class="part">
                 <div class="subtitle"><h2>Educación</h2></div>
                 <div class="part_item">
                     <div class="item_header">
@@ -56,8 +55,8 @@
                         <p>Colegio Fomento Peñalba</p>
                     </div>
                 </div>
-            </div>
-            <div class="part">
+            </section>
+            <section class="part">
                 <div class="subtitle"><h2>Voluntariado</h2></div>
                 <div class="part_item">
                     <div class="item_header">
@@ -99,8 +98,8 @@
                         <a href="https://ciong.org/voluntariado/lecturas-pacientes/">Enlace 2</a>
                     </div>
                 </div>
-            </div>
-            <div class="part">
+            </section>
+            <section class="part">
                 <div class="subtitle"><h2>Experiencia Extracurricular</h2></div>
                 <div class="part_item">
                     <div class="item_header">
@@ -150,8 +149,8 @@
                         <p>Monitor en clinics matinales de fútbol sala y otros deportes. Un mes de responsable (5 monitores y 45 niños).</p>
                     </div>
                 </div>
-            </div>
-            <div class="part">
+            </section>
+            <section class="part">
                 <div class="subtitle"><h2>Habilidades Informáticas</h2></div>
                 <div class="list_items_ability">
                     <div class="item_ability">
@@ -257,8 +256,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="part">
+            </section>
+            <section class="part">
                 <div class="subtitle"><h2>Títulos</h2></div>
                 <div class="part_item">
                     <div class="item_header">
@@ -286,10 +285,36 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </div>
-                            
+    <footer>
+        <a href="resources/AlvaroVaqueroCurriculum.pdf" download="AlvaroVaqueroCurriculum.pdf" class="download_curriculum">
+            <div class="container_cv">
+                <i class="fas fa-chevron-down cv_icon"></i>
+                <p class="cv">Descargar CV</p>
+            </div>
+        </a>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/alvaro-vaquero-gimenez/" class="social__item"><i class="fab fa-linkedin social__icon"></i></a>
+            <a href="https://twitter.com/AlvaroVaqGim" class="social__item"><i class="fab fa-twitter social__icon"></i></a>
+            <a href="https://github.com/alvarovaq" class="social__item"><i class="fab fa-github social__icon"></i></a>
+        </div>
+        <div class="contact">
+            <div class="mail">
+                <div class="contact__item">
+                    <i class="fas fa-envelope-open contact__icon"></i>
+                    <h4 class="contact__value">alvaro.vaquero.tel@gmail.com</h4>
+                </div>
+            </div>
+            <div class="phone">
+                <div class="contact__item">
+                    <i class="fas fa-phone contact__icon"></i>
+                    <h4 class="contact__value">+34 660 78 27 87</h4>
+                </div>
+            </div>
+        </div>
+    </footer>      
     <script src="https://kit.fontawesome.com/4b82c5518b.js" crossorigin="anonymous"></script>
 </body>
 </html>
