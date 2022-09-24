@@ -172,9 +172,11 @@ h1 {
 }
 
 .btn {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
     background-color: rgb(100, 100, 100);
     color: white;
-    text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
     padding: 10px 25px;
@@ -187,9 +189,12 @@ h1 {
 }
 
 .btn2 {
-    border-color: rgb(100, 100, 100);
-    color: rgb(100, 100, 100);
+    
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    background-color: white;
+    color: rgb(100, 100, 100);
     border: 2px solid transparent;
     font-weight: bold;
     padding: 10px 25px;
